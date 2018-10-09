@@ -5,7 +5,7 @@ describe ("Default value", function() {
       prop: 1
     };
     let a = o.prop1;
-    expect(a).toBeUndefined();   // check that o.prop1 is undefined
+    expect(a).toBeUndefined(o.prop1);   // check that o.prop1 is undefined
   });
 
   it ("does have a default value", function() {
